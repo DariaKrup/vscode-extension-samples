@@ -15,18 +15,27 @@
       {
         "id": "widgetSamples",
         "title": "Settings Editor Widget Samples",
+        "order": 2,
         "properties": {
           "conf.settingsEditor.numericObjectSetting": {
             "type": "object",
+            "order": 2,
             "description": "An example numeric object setting.",
             "properties": {
-              "intprop": { "type": "integer", "description": "Integer property" },
-              "numprop": { "type": "number", "description": "Numeric property" }
+              "intprop": {
+                "type": "integer",
+                "description": "Integer property"
+              },
+              "numprop": {
+                "type": "number",
+                "description": "Numeric property"
+              }
             },
             "additionalProperties": false
           },
           "conf.settingsEditor.boolObjectSetting": {
             "type": "object",
+            "order": 1,
             "description": "An example bool object setting.",
             "properties": {
               "prop1": { "type": "boolean", "description": "Property 1" },
@@ -43,6 +52,21 @@
         "category": "Configuration Sample",
         "command": "config.commands.configureViewOnWindowOpen",
         "title": "Configure view to show on window open"
+      },
+      {
+        "category": "Configuration Sample",
+        "command": "config.commands.configureEmptyLastLineCurrentFile",
+        "title": "Configure empty last line for current file"
+      },
+      {
+        "category": "Configuration Sample",
+        "command": "config.commands.configureEmptyLastLineFiles",
+        "title": "Configure empty last line for files"
+      },
+      {
+        "category": "Configuration Sample",
+        "command": "config.commands.overrideLanguageValue",
+        "title": "Configure show size for language"
       }
     ]
   }
