@@ -11,7 +11,7 @@ This sample shows
 - How to listen to configuration changes
 - How to test it
 
-See [extension.ts](./src/extension.ts)
+<!-- See [extension.ts](./src/extension.ts) -->
 
 # Testing
 
