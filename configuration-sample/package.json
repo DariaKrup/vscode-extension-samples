@@ -8,6 +8,10 @@
   "engines": {
     "vscode": "^1.100.0"
   },
+	"repository": {
+    "type": "git",
+    "url": "https://example.com/local-test.git"
+  },
   "main": "./out/extension",
   "activationEvents": [],
   "contributes": {
