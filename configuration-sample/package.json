@@ -1,3 +1,18 @@
-# Configuration Sample
-
-This is a sample VS Code extension for local testing.
+{
+  "name": "configuration-sample",
+  "displayName": "Configuration Sample",
+  "description": "How to contribute and use configurations in VS Code",
+  "version": "0.0.1",
+  "publisher": "localtest",
+  "private": true,
+  "engines": {
+    "vscode": "^1.100.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://example.com/local-test.git"
+  },
+  "main": "./out/extension",
+  "activationEvents": [],
+  "contributes": {}
+}
